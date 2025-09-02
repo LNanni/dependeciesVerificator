@@ -1,0 +1,5 @@
+python3
+vlc
+firefox
+chrome
+EOF
