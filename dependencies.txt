@@ -1,5 +1,6 @@
-python3
-vlc
-firefox
-chrome
+python3 3.12.3
+google-chrome-stable 139.0.7258.154
+firefox 142.0
+vlc 3.0.20
+7zip 22.3
 EOF
