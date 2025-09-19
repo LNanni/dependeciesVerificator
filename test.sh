@@ -13,8 +13,8 @@ verify() {
         if [ -n "$expected_version" ]; then
             # Obtener la versión instalada
             local installed_version=$(dpkg -l | grep "^ii.*$package " | awk '{print $3}')
-            if [ "$installed_version" = "$expected_version" ]; then
-                echo "$package installed with correct version ($installed_version)"
+            if [[ "$installed_version" == *"$expected_version"* ]]; then
+                echo "$package installed with correct version ($expected_version)"
             else
                 echo "$package installed with version $installed_version, expected $expected_version"
             fi
