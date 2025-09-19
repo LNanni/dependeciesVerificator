@@ -1,5 +1,5 @@
-python3
-vlc
-firefox
-chrome
+python3 3.12.3
+chrome 139.0.7258.154
+firefox 120.0.1
+vlc 3.0.20
 EOF
